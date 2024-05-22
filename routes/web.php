@@ -34,18 +34,6 @@ Route::withoutMiddleware(["auth"])->group(static function() {
 
     Route::post('/register', [RegisterController::class, 'registerPost'])
         ->name('register.post');
-
-    Route::get('/forgot-password', [ForgotPasswordController::class, 'forgotPassword'])
-        ->name('forgot.password');
-
-    Route::post('/forgot-password', [ForgotPasswordController::class, 'forgotPasswordLink'])
-        ->name('forgot.password.post');
-
-    Route::get('/reset-password/{id}/{token}', [ResetPasswordController::class, 'resetPasswordIndex'])
-        ->name('reset.password');
-
-    Route::post('/reset-password', [ResetPasswordController::class, 'resetPasswordSubmit'])
-        ->name('reset.password.post');
 });
 
     Route::get('/', HomePageController::class)
