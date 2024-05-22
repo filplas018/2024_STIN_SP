@@ -21,7 +21,7 @@ uses()
         $this
             ->postJson(route('login'), [
                 'email' => "testik@test.com",
-                'password' => 'Password2',
+                'password' => 'Password4',
             ]);
     })->in("Unit\Auth");
 /*

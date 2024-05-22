@@ -15,7 +15,7 @@ it('can access register', function () {
 });
 
 it('can submit register', function () {
-    $email = "example20@test.com";
+    $email = "example42069@test.com";
     $response = $this->postJson(route("register"),
     [
         'email' => $email,
@@ -25,20 +25,14 @@ it('can submit register', function () {
 
     $user = User::query()->get()->where('email', $email);
     $this->assertTrue($user !== null);
+    User::query()->where('email',$email)->delete();
 });
 
 it('can submit login', function () {
-
-    $user = User::query()->create([
-       'email' => "example72@test.com",
-        'password' => "Password1"
-
-    ]);
-
-    $response = $this->postJson(route("login"),
+    $this->postJson(route("login"),
         [
-            'email' => $user->email,
-            'password' => "Password1",
+            'email' => "testik@test.com",
+            'password' => "Password4",
         ])->assertRedirect(route(("home")));
 });
 
