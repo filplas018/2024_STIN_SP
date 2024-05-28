@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor>
+    <configVersion>3</configVersion>
+    <title>My Project Documentation</title>
+    <parser>
+        <target>data/output</target>
+    </parser>
+    <transformer>
+        <target>data/output</target>
+    </transformer>
+    <files>
+        <directory>.</directory>
+    </files>
+
+</phpdocumentor>

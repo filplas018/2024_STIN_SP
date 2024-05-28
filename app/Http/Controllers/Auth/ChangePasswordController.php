@@ -11,8 +11,14 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
 
+
 final class ChangePasswordController extends Controller
 {
+    /**
+     * Changes users password
+     * @param Request $request has current password and new password
+     * @return Response
+     */
     public function __invoke(Request $request): Response
     {
         /**

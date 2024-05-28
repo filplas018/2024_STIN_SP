@@ -9,8 +9,16 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * Controller for email change
+ */
 final class ChangeEmailController extends Controller
 {
+    /**
+     * Changes user email by giving new email
+     * @param Request $request
+     * @return Response
+     */
     public function __invoke(Request $request): Response
     {
         /**

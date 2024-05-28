@@ -9,10 +9,17 @@ use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * Controller for saving favourite location
+ */
 class SaveFavouriteController extends Controller
 {
+
+
     /**
-     * Handle the incoming request.
+     * Saves favourite location by given city, long and lat for current user
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function __invoke(Request $request)
     {

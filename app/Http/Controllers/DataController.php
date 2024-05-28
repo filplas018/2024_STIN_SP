@@ -19,10 +19,17 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
 use Inertia\Inertia;
 
+/**
+ * Controller for historical data
+ */
 class DataController extends Controller
 {
+
     /**
-     * Handle the incoming request.
+     * Returns historical data from api and renders Data page
+     * @param Request $request
+     * @return Responsable|\Symfony\Component\HttpFoundation\Response
+     * @throws \Illuminate\Validation\ValidationException
      */
     public function __invoke(Request $request): Responsable|\Symfony\Component\HttpFoundation\Response
     {

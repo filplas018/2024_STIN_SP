@@ -16,8 +16,16 @@ use LVR\CreditCard\CardExpirationYear;
 use LVR\CreditCard\CardNumber;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * Controller for payment submission
+ */
 class PurchaseSubmitController extends Controller
 {
+    /**
+     *  Simulates payment by giving card information and subscribe options
+     * @param Request $request
+     * @return Response
+     */
     public function __invoke(Request $request) : Response
     {
         $user = $request->user();

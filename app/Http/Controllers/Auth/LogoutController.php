@@ -8,8 +8,16 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
+/**
+ *Controller for logout
+ */
 class LogoutController extends Controller
 {
+    /**
+     * Logs out current user
+     * @param Request $request
+     * @return RedirectResponse
+     */
     public function __invoke(Request $request): RedirectResponse
     {
 

@@ -10,13 +10,25 @@ use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
 
 
+/**
+ *Controller for login
+ */
 class LoginController extends Controller
 {
+    /**
+     * Renders login page
+     * @return \Inertia\Response
+     */
     public function login()
     {
         return Inertia::render('Login');
     }
 
+    /**
+     * Logs the user in by his credentials
+     * @param Request $request
+     * @return RedirectResponse
+     */
     public function loginPost(Request $request): RedirectResponse
     {
         $credentials = $request->validate([
