@@ -10,10 +10,8 @@ it('can get historic data', function () {
         'city' => "Prague"
     ]));
 
-    dd(
-        $response,
-        $response->getOriginalContent(),
-    );
+    dd($response, $response->getOriginalContent());
+
 
     $history = ($response->getOriginalContent()->getData()['page']['props']['history']);
     $favourite = ($response->getOriginalContent()->getData()['page']['props']['favourite']);
