@@ -9,13 +9,25 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules\Password;
 use Inertia\Inertia;
 
+/**
+ * Controller for registration
+ */
 class RegisterController extends Controller
 {
+    /**
+     * renders register page
+     * @return \Inertia\Response
+     */
     public function register()
     {
         return Inertia::render('Register');
     }
 
+    /**
+     * Registers user by new credentials
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function registerPost(Request $request)
     {
 

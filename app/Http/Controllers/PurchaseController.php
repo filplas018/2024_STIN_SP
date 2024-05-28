@@ -9,10 +9,16 @@ use Symfony\Component\HttpFoundation\Response;
 use Carbon\Carbon;
 
 
+/**
+ * Controller for purchase page
+ */
 class PurchaseController extends Controller
 {
+
     /**
-     * Handle the incoming request.
+     * Renders purchase page
+     * @param Request $request
+     * @return Responsable
      */
     public function __invoke(Request $request) : Responsable
     {

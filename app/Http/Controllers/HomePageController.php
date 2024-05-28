@@ -16,8 +16,15 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Validator;
 use Inertia\Inertia;
 
+/**
+ * COntroller for home page
+ */
 class HomePageController extends Controller
 {
+    /** Renders Home page with weather by given city
+     * @param Request $request
+     * @return \Inertia\Response
+     */
     public function __invoke(Request $request)
     {
         $apiKey = Env::get("OPENWEATHER_API_KEY");

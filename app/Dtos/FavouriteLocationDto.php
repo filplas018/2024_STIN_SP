@@ -5,8 +5,18 @@ namespace App\Dtos;
 use App\Models\Location;
 use Spatie\LaravelData\Data;
 
+/**
+ * Dto representing Favourite location of a user
+ */
 class FavouriteLocationDto extends Data
 {
+    /**
+     * Contructor for Dto
+     * @param float $lon
+     * @param float $lat
+     * @param string $name
+     * @param string $url
+     */
     public function __construct(
 
 
@@ -19,6 +29,11 @@ class FavouriteLocationDto extends Data
         //
     }
 
+    /**
+     * Helper method for filling from response
+     * @param Location $value
+     * @return static
+     */
     public static function fromArray(Location $value) :static
     {
         return new static(

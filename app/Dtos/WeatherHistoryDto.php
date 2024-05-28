@@ -5,9 +5,22 @@ namespace App\Dtos;
 use Illuminate\Support\Carbon;
 use Spatie\LaravelData\Data;
 
+/**
+ * Dto representing historical data
+ */
 class WeatherHistoryDto extends Data
 {
 
+    /**
+     * Constructor for dto
+     * @param string $dt
+     * @param float $temp
+     * @param float $pressure
+     * @param float $humidity
+     * @param float $speed
+     * @param float $deg
+     * @param float $clouds
+     */
     public function __construct(
         public readonly string $dt,
         public readonly float $temp,
@@ -21,6 +34,11 @@ class WeatherHistoryDto extends Data
         //
     }
 
+    /**
+     * Helper method for filling from response
+     * @param array $value
+     * @return static
+     */
     public static function fromArray(array $value) :static
     {
         return new static(

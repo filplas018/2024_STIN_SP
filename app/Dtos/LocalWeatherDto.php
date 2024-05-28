@@ -5,9 +5,30 @@ namespace App\Dtos;
 
 use Spatie\LaravelData\Data;
 
+/**
+ * Dto representing Local weather
+ */
 class LocalWeatherDto extends Data
 {
 
+    /**
+     * Constructor for Dto
+     * @param float $lon
+     * @param float $lat
+     * @param string $main
+     * @param string $description
+     * @param string $icon
+     * @param float $temp
+     * @param float $pressure
+     * @param float $humidity
+     * @param float $speed
+     * @param float $deg
+     * @param string $country
+     * @param string $name
+     * @param float $timezone
+     * @param float $sunrise
+     * @param float $sunset
+     */
     public function __construct(
 
 
@@ -31,6 +52,11 @@ class LocalWeatherDto extends Data
         //
     }
 
+    /**
+     * Helper method for filling from response
+     * @param array $value
+     * @return static
+     */
     public static function fromArray(array $value) :static
     {
         return new static(

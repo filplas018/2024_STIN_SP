@@ -11,9 +11,12 @@
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
         "nesbot/carbon": "^3.3",
-        "spatie/laravel-data": "*"
+        "open-telemetry/opentelemetry": "1.0.0 as 0.0.2",
+        "php-http/httplug": "^2.4",
+        "spatie/laravel-data": "4.6.0"
     },
     "require-dev": {
+        "brianium/paratest": "^7.4",
         "fakerphp/faker": "^1.23",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
@@ -65,6 +68,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
