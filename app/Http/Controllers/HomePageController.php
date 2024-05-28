@@ -7,7 +7,6 @@ use App\Dtos\LocalWeatherDto;
 use App\Models\Location;
 use App\Models\Payment;
 use App\Models\Subscription;
-use App\Models\User;
 use App\Models\UserSubscription;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
