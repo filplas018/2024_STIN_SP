@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1716999315">
-  <project timestamp="1716999315">
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Dtos\FavouriteLocationDto.php">
+<coverage generated="1717005820">
+  <project timestamp="1717005820">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Dtos/FavouriteLocationDto.php">
       <class name="App\Dtos\FavouriteLocationDto" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
       </class>
@@ -16,7 +16,7 @@
       <line num="44" type="stmt" count="2"/>
       <metrics loc="47" ncloc="31" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Dtos\LocalWeatherDto.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Dtos/LocalWeatherDto.php">
       <class name="App\Dtos\LocalWeatherDto" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="20" coveredelements="20"/>
       </class>
@@ -42,7 +42,7 @@
       <line num="81" type="stmt" count="2"/>
       <metrics loc="84" ncloc="57" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="20" coveredelements="20"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Dtos\WeatherHistoryDto.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Dtos/WeatherHistoryDto.php">
       <class name="App\Dtos\WeatherHistoryDto" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
       </class>
@@ -60,7 +60,7 @@
       <line num="52" type="stmt" count="1"/>
       <metrics loc="55" ncloc="36" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\Auth\ChangePasswordController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/Auth/ChangePasswordController.php">
       <class name="App\Http\Controllers\Auth\ChangePasswordController" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="23" coveredelements="23"/>
       </class>
@@ -89,7 +89,7 @@
       <line num="52" type="stmt" count="1"/>
       <metrics loc="55" ncloc="47" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="23" coveredelements="23"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\Auth\LoginController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/Auth/LoginController.php">
       <class name="App\Http\Controllers\Auth\LoginController" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="8" elements="13" coveredelements="9"/>
       </class>
@@ -108,7 +108,7 @@
       <line num="47" type="stmt" count="0"/>
       <metrics loc="51" ncloc="39" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="8" elements="13" coveredelements="9"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\Auth\LogoutController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/Auth/LogoutController.php">
       <class name="App\Http\Controllers\Auth\LogoutController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
       </class>
@@ -119,7 +119,7 @@
       <line num="29" type="stmt" count="1"/>
       <metrics loc="33" ncloc="24" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\Auth\RegisterController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/Auth/RegisterController.php">
       <class name="App\Http\Controllers\Auth\RegisterController" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="19" coveredelements="15"/>
       </class>
@@ -144,7 +144,7 @@
       <line num="54" type="stmt" count="1"/>
       <metrics loc="58" ncloc="46" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="19" coveredelements="15"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\ChangeEmailController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/ChangeEmailController.php">
       <class name="App\Http\Controllers\ChangeEmailController" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
       </class>
@@ -171,7 +171,7 @@
       <line num="50" type="stmt" count="1"/>
       <metrics loc="54" ncloc="43" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\Controller.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/Controller.php">
       <class name="App\Http\Controllers\Controller" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </class>
@@ -180,7 +180,7 @@
       <line num="13" type="stmt" count="13"/>
       <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\DataController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/DataController.php">
       <class name="App\Http\Controllers\DataController" namespace="global">
         <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="34" elements="41" coveredelements="34"/>
       </class>
@@ -227,7 +227,7 @@
       <line num="92" type="stmt" count="1"/>
       <metrics loc="95" ncloc="86" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="34" elements="41" coveredelements="34"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\HomePageController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/HomePageController.php">
       <class name="App\Http\Controllers\HomePageController" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
       </class>
@@ -254,7 +254,7 @@
       <line num="57" type="stmt" count="1"/>
       <metrics loc="60" ncloc="53" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="21" coveredelements="21"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\ProfileController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/ProfileController.php">
       <class name="App\Http\Controllers\ProfileController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
@@ -262,7 +262,7 @@
       <line num="18" type="stmt" count="1"/>
       <metrics loc="21" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\PurchaseController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/PurchaseController.php">
       <class name="App\Http\Controllers\PurchaseController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
@@ -270,7 +270,7 @@
       <line num="25" type="stmt" count="1"/>
       <metrics loc="28" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\PurchaseSubmitController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/PurchaseSubmitController.php">
       <class name="App\Http\Controllers\PurchaseSubmitController" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="15" elements="34" coveredelements="15"/>
       </class>
@@ -310,7 +310,7 @@
       <line num="69" type="stmt" count="1"/>
       <metrics loc="72" ncloc="64" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="15" elements="34" coveredelements="15"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Controllers\SaveFavouriteController.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Controllers/SaveFavouriteController.php">
       <class name="App\Http\Controllers\SaveFavouriteController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
       </class>
@@ -334,7 +334,7 @@
       <line num="45" type="stmt" count="1"/>
       <metrics loc="48" ncloc="40" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="18" coveredelements="18"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Middleware\HandleInertiaRequests.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Middleware/HandleInertiaRequests.php">
       <class name="App\Http\Middleware\HandleInertiaRequests" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
       </class>
@@ -348,7 +348,7 @@
       <line num="42" type="stmt" count="13"/>
       <metrics loc="45" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Http\Middleware\HasSubscription.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Http/Middleware/HasSubscription.php">
       <class name="App\Http\Middleware\HasSubscription" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
       </class>
@@ -359,7 +359,7 @@
       <line num="30" type="stmt" count="0"/>
       <metrics loc="33" ncloc="24" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="5" coveredelements="3"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Models\Location.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Models/Location.php">
       <class name="App\Models\Location" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </class>
@@ -367,7 +367,7 @@
       <line num="20" type="stmt" count="0"/>
       <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Models\Payment.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Models/Payment.php">
       <class name="App\Models\Payment" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </class>
@@ -375,7 +375,7 @@
       <line num="31" type="stmt" count="0"/>
       <metrics loc="34" ncloc="31" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Models\Subscription.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Models/Subscription.php">
       <class name="App\Models\Subscription" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </class>
@@ -383,7 +383,7 @@
       <line num="26" type="stmt" count="0"/>
       <metrics loc="30" ncloc="27" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Models\User.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Models/User.php">
       <class name="App\Models\User" namespace="global">
         <metrics complexity="6" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="5" elements="15" coveredelements="7"/>
       </class>
@@ -404,7 +404,7 @@
       <line num="75" type="stmt" count="0"/>
       <metrics loc="78" ncloc="75" classes="1" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="5" elements="15" coveredelements="7"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Models\UserSubscription.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Models/UserSubscription.php">
       <class name="App\Models\UserSubscription" namespace="global">
         <metrics complexity="4" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="7" elements="14" coveredelements="8"/>
       </class>
@@ -424,7 +424,7 @@
       <line num="52" type="stmt" count="0"/>
       <metrics loc="55" ncloc="52" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="7" elements="14" coveredelements="8"/>
     </file>
-    <file name="D:\Projekty\STIN\2024_STIN_semestral_project\app\Providers\AppServiceProvider.php">
+    <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Providers/AppServiceProvider.php">
       <class name="App\Providers\AppServiceProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
