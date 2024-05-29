@@ -1,15 +1,16 @@
 <?php
 
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use function Pest\Laravel\{actingAs};
+
+
 it('can get profile', function () {
     $this->get(route('logout'))->assertRedirect('login');
+    $user = User::query()->first();
 
     $this
-        ->postJson(route('login'), [
-            'email' => "testik@test.com",
-            'password' => 'Password4',
-        ]);
-
-
-        $this->get(route('profile'))->assertFound();
+        ->actingAs($user)
+        ->get(route('profile'))->assertOk();
 
 });

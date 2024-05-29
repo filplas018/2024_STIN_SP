@@ -1,12 +1,11 @@
 <?php
 
+use App\Models\User;
+
 it('can get home page', function () {
-    $this
-        ->postJson(route('login'), [
-            'email' => "testik@test.com",
-            'password' => 'Password4',
-        ]);
-    $response = $this->get(route("home", [
+
+    $user = User::query()->first();
+    $response = $this->actingAs($user)->get(route("home", [
         'city' => "Prague"
     ]));
 

@@ -1,12 +1,10 @@
 <?php
 
+use App\Models\User;
+
 it('can post favourites', function () {
-    $this
-        ->postJson(route('login'), [
-            'email' => "testik@test.com",
-            'password' => 'Password4',
-        ]);
-    $this->post(route("home", [
+    $user = User::query()->first();
+    $this->actingAs($user)->post(route("home", [
         'city' => "Prague",
         'long' => 15.21,
         'lat' => 14.14

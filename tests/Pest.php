@@ -16,14 +16,14 @@ uses(
     // Illuminate\Foundation\Testing\RefreshDatabase::class,
 )->in('Unit');
 
-uses()
+/*uses()
     ->beforeEach(function () {
         $this
             ->postJson(route('login'), [
                 'email' => "testik@test.com",
                 'password' => 'Password4',
             ]);
-    })->in("Unit\Auth");
+    })->in("Unit\Auth");*/
 /*
 |--------------------------------------------------------------------------
 | Expectations

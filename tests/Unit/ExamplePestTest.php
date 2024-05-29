@@ -35,6 +35,7 @@ it('can submit register', function () {
     $this->assertTrue($user !== null);
     User::query()->where('email',$email)->delete();
 });
+//\Illuminate\Support\Facades\File::get(storage_path("logs/laravel.log"))
 
 it('can submit login', function () {
     $this->postJson(route("login"),
