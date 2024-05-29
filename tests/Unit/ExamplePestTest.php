@@ -8,11 +8,9 @@ it('expect', function () {
 
 it('can access login', function () {
 
-    try {
+
         $this->get("/login")->assertFound();
-    } catch (Exception $e) {
-        dd($e);
-    }
+
 
 });
 
@@ -20,11 +18,8 @@ it('can access register', function () {
     $this->get(route('logout'))->assertRedirect('login');
 
 
-    try {
+
         $this->get("/register")->assertOk();
-    } catch (Exception $e) {
-        dd($e);
-    }
 });
 
 it('can submit register', function () {

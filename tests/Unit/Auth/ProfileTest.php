@@ -9,16 +9,7 @@ it('can get profile', function () {
             'password' => 'Password4',
         ]);
 
-    try {
-        $this
-            ->postJson(route('login'), [
-                'email' => "testik@test.com",
-                'password' => 'Password4',
-            ]);
 
         $this->get('/profile')->assertFound();
-    } catch (Exception $e) {
-        dd($e);
-    }
 
 });
