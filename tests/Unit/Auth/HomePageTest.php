@@ -1,6 +1,11 @@
 <?php
 
 it('can get home page', function () {
+    $this
+        ->postJson(route('login'), [
+            'email' => "testik@test.com",
+            'password' => 'Password4',
+        ]);
     $response = $this->get(route("home", [
         'city' => "Prague"
     ]));
