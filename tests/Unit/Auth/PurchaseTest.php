@@ -9,5 +9,5 @@ it('can get purchase', function () {
 //            'password' => 'Password1',
 //        ]);
     $user = User::query()->first();
-    $this->actingAs($user)->get('/purchase')->assertOk();
+    $this->actingAs($user)->get(route('purchase'))->assertOk();
 });
