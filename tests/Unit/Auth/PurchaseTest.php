@@ -3,8 +3,8 @@
 it('can get purchase', function () {
     $this
         ->postJson(route('login'), [
-            'email' => "testik@test.com",
-            'password' => 'Password4',
+            'email' => "filipplass@gmail.com",
+            'password' => 'Password1',
         ]);
-    $this->get(route('purchase'))->assertOk();
+    $this->get('/purchase')->assertOk();
 });
