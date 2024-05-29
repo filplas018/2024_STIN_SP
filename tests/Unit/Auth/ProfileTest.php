@@ -17,7 +17,7 @@ it('can get profile', function () {
             ]);
 
         $this->get('/profile')->assertFound();
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         dd($e);
     }
 
