@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Auth;
 
 it('can submit purchase', function () {
+    $this
+        ->postJson(route('login'), [
+            'email' => "testik@test.com",
+            'password' => 'Password4',
+        ]);
     $this->postJson(route("purchase.submit"),
         [
             'months' => 5,

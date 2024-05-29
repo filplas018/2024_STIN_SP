@@ -6,6 +6,11 @@ it('can get historic data', function () {
     /**
      * @var $response TestResponse
      */
+    $this
+        ->postJson(route('login'), [
+            'email' => "testik@test.com",
+            'password' => 'Password4',
+        ]);
     $response = $this->get(route("data", [
         'city' => "Prague"
     ]));
