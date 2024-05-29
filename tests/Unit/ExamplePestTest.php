@@ -19,7 +19,12 @@ it('can access login', function () {
 it('can access register', function () {
     $this->get(route('logout'))->assertRedirect('login');
 
-    $this->get("/register")->assertOk();
+
+    try {
+        $this->get("/register")->assertOk();
+    } catch (Exception $e) {
+        dd($e);
+    }
 });
 
 it('can submit register', function () {
