@@ -7,11 +7,11 @@ it('expect', function () {
 });
 
 it('can access login', function () {
-    $this->get(route("login"))->assertOk();
+    $this->get("/login")->assertOk();
 });
 
 it('can access register', function () {
-    $this->get(route("register"))->assertOk();
+    $this->get("/register")->assertOk();
 });
 
 it('can submit register', function () {
