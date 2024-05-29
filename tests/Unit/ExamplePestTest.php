@@ -10,7 +10,7 @@ it('can access login', function () {
 
     try {
         $this->get("/login")->assertFound();
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         dd($e);
     }
 
