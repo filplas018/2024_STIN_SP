@@ -9,7 +9,7 @@
 
 ## About Laravel
 
-[![Test Coverage](https://raw.githubusercontent.com/Hi-Folks/array/main/badge-coverage.svg)](https://packagist.org/packages/https://github.com/filplas018/2024_STIN_SP)
+[![Test Coverage](https://raw.githubusercontent.com/filplas018/2024_STIN_SP/master/badge-coverage.svg)](https://raw.githubusercontent.com/filplas018/2024_STIN_SP/master/badge-coverage.svg)
 
 
 
