@@ -19,6 +19,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        dd(env("OPENWEATHER_API_KEY"));
+        //dd(env("OPENWEATHER_API_KEY"));
     }
 }

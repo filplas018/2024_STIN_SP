@@ -30,7 +30,7 @@ jobs:
         touch database/database.sqlite
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       env:
-        OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        OPENWEATHER_API_KEY: "527840f5f64bb410647a77f32b3eef37"
         OPENWEATHER_API_LANG: "cz"
         OPENWEATHER_API_DATE_FORMAT: "d/m/Y"
         OPENWEATHER_API_TIME_FORMAT: "h:i A"
@@ -42,5 +42,5 @@ jobs:
         DB_DATABASE: 8sgl636v
         DB_USERNAME: 8sgl636v
         DB_PASSWORD: WienLove22
-        
+
       run: php artisan test --parallel --coverage
