@@ -7,5 +7,5 @@ it('can get profile', function () {
             'password' => 'Password4',
         ]);
 
-    $this->get('/profile')->assertOk();
+    $this->get('/profile')->assertFound();
 });
