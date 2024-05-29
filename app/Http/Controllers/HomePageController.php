@@ -49,6 +49,8 @@ class HomePageController extends Controller
                 ->get()
         );
 
+
+
         return Inertia::render('HomePage', [
             'weather'=>$weatherData?->toArray(),
             'favourite' => $locations?->toArray()
