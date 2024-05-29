@@ -9,7 +9,7 @@ it('expect', function () {
 it('can access login', function () {
 
 
-        $this->get("/login")->assertFound();
+        $this->get(route("login"))->assertFound();
 
 
 });
@@ -19,7 +19,7 @@ it('can access register', function () {
 
 
 
-        $this->get("/register")->assertOk();
+        $this->get(route("register"))->assertOk();
 });
 
 it('can submit register', function () {
