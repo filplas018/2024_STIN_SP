@@ -48,7 +48,6 @@ jobs:
           DB_PASSWORD: WienLove22
         run: vendor/bin/pest --coverage-clover clover.xml
       - name: Publish coverage
-        uses: actions/checkout@v3
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
