@@ -10,6 +10,6 @@ it('can get profile', function () {
         ]);
 
 
-        $this->get('/profile')->assertFound();
+        $this->get(route('profile'))->assertFound();
 
 });

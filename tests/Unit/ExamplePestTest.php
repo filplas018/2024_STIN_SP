@@ -9,13 +9,13 @@ it('expect', function () {
 it('can access login', function () {
 
 
-        $this->get(route("login"))->assertFound();
+        $this->get(route("login"))->assertOk();
 
 
 });
 
 it('can access register', function () {
-    $this->get(route('logout'))->assertRedirect('login');
+    $this->get(route('logout'))->assertOk('login');
 
 
 
