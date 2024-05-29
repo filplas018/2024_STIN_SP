@@ -7,11 +7,19 @@ it('expect', function () {
 });
 
 it('can access login', function () {
-    $this->get("/login")->assertFound();
+
+    try {
+        $this->get("/login")->assertFound();
+    } catch (\Exception $e) {
+        dd($e);
+    }
+
 });
 
 it('can access register', function () {
-    $this->get("/register")->assertFound();
+    $this->get(route('logout'))->assertRedirect('login');
+
+    $this->get("/register")->assertOk();
 });
 
 it('can submit register', function () {
