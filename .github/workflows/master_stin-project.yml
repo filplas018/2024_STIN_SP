@@ -72,4 +72,9 @@ jobs:
           app-name: 'stin-project'
           slot-name: 'Production'
           package: .
+      - name: 'run'
+        run: php artisan serve
+      - name: 'build'
+        run: npm run build
+      
           
