@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717005820">
-  <project timestamp="1717005820">
+<coverage generated="1717267567">
+  <project timestamp="1717267567">
     <file name="/home/runner/work/2024_STIN_SP/2024_STIN_SP/app/Dtos/FavouriteLocationDto.php">
       <class name="App\Dtos\FavouriteLocationDto" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
